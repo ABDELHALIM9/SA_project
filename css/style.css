@@ -17,7 +17,7 @@
   #f2 {
     width: 500px; /* Set the width of the div */
     margin-left:460px;  
-    margin-top: 15%;
+    margin-top: 5%;
   }
 
   #f3 {
@@ -27,11 +27,17 @@
   }
 
 #forget{
-    color: red;
+    color: rgb(0, 8, 255);
   }
 #forget:hover{
 color: #1B2C51;
 
+}
+
+#anim{
+    width: 226px;
+    margin: auto;
+    border-radius: 23px;
 }
 #pass{
     margin: auto;
