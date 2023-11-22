@@ -26,7 +26,19 @@
     margin-top: 15%;
   }
 
+#forget{
+    color: red;
+  }
+#forget:hover{
+color: #1B2C51;
 
+}
+#pass{
+    margin: auto;
+    font-size: 14px;
+    font-family: math;
+    font-weight: bold;
+}
 .fw-bold {
     font-weight: 700 !important;
 }
