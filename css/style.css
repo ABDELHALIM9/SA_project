@@ -9,6 +9,18 @@
     font-weight: 500 !important;
 }
 
+#f1 {
+    width: 388px;
+    margin: auto ;
+  }
+
+  #f2 {
+    width: 500px; /* Set the width of the div */
+    margin-left:460px;  
+    margin-top: 15%;
+  }
+
+
 .fw-bold {
     font-weight: 700 !important;
 }
