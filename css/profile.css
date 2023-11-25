@@ -1,6 +1,6 @@
 body{
     background: #f7f7ff;
-    margin-top:20px;
+
 }
 .card {
     position: relative;
@@ -21,4 +21,54 @@ body{
 .container-fluid{
     margin-top:80 px;
 
+}
+.card{
+    margin-top:20px;
+}
+.card-body{
+    align-items: center;
+    padding: 2rem 1rem;
+    /* width: 450px; */
+
+}
+.align-items-center{
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text-up{
+    margin-top: 10px;
+    text-align: center;
+}
+.padT{
+    padding-top: 20px;
+}
+.text-up2{
+    margin-top: 20px;
+    text-align: center;
+}
+.custom_bd{
+    width:600px
+}
+.msgg{
+    background: rgb(245, 245, 245);
+    margin: 20px 0px 15px;
+    padding: 10px 20px;
+    min-height: 50px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: 0.5px solid rgb(238, 238, 238);
+    position: relative;
+    font-family: TheSans;
+    border-radius: 0px 22px;
+text-align: center;}
+.checked {
+  color: orange;
+}
+.text-down{
+    margin-bottom: 20px;
 }
