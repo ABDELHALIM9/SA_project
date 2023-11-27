@@ -553,3 +553,10 @@ color: #1B2C51;
 .footer .copyright a:hover {
     color: var(--primary);
 }
+
+
+#aboutcard{
+    gap: 111px;
+    margin-left: 31px;
+    margin-top: 20px;
+}
