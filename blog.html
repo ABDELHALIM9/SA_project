@@ -35,6 +35,50 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <style>
+        .bdge {
+        height: 21px;
+        background-color: orange;
+        color: #fff;
+        font-size: 11px;
+        padding: 8px;
+        border-radius: 4px;
+        line-height: 3px;
+        margin-right: 10px;
+        margin-left: 10px;
+        }
+
+        .comments {
+        text-decoration: underline;
+        text-underline-position: under;
+        cursor: pointer;
+        margin-left: 10px;
+        margin-right: 10px;
+        }
+
+        .dot {
+        height: 7px;
+        width: 7px;
+        margin-top: 3px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        }
+
+        .hit-voting:hover {
+        color: blue;
+        }
+
+        .hit-voting {
+        cursor: pointer;
+        }
+
+        .rep{
+            margin-left: 10px;
+            color: blue;
+        }
+
+    </style>
 </head>
 
 <body>
@@ -108,10 +152,82 @@
         </div>
     </nav>
     <!-- Navbar End -->
-
-<!--  ------------------strat the body from here------------------  -->
-    
-
+    <div class="container mt-5 mb-5">
+        <div class="d-flex justify-content-center row">
+            <div class="d-flex flex-column col-md-8">
+                <div class="d-flex flex-row align-items-center text-left comment-top p-2 bg-white border-bottom px-4">
+                    <div class="d-flex flex-column-reverse flex-grow-0 align-items-center votings ml-1"><i class="fa fa-sort-up fa-2x hit-voting"></i><span>12</span><i class="fa fa-sort-down fa-2x hit-voting"></i></div>
+                    <div class="d-flex flex-column ml-3">
+                        <div class="d-flex flex-row post-title">
+                          <h5>The dental clinic has been postponed from 12/10/2023 to 12/15/2023 due to personal circumstances. I wish you good health.</h5><span class="ml-2">(D:Gaefar)</span></div>
+                        <div class="d-flex flex-row align-items-center align-content-center post-title"><span class="bdge mr-1">Important</span><span class="mr-2 comments">3 comments&nbsp;</span><span class="mr-2 dot"></span><span>6 hours ago</span></div>
+                    </div>
+                </div>
+                <div class="coment-bottom bg-white p-2 px-4">
+                    <div
+                        class="commented-section mt-2">
+                        <div class="d-flex flex-row align-items-center commented-user">
+                            <h5 class="mr-2">Corey oates</h5><span class="dot mb-1"></span><span class="mb-1 ml-2">4 hours ago</span></div>
+                        <div class="comment-text-sm"><span>Is there a closer appointment at a different clinic?</span></div>
+                        <div
+                            class="reply-section">
+                            <div class="d-flex flex-row align-items-center voting-icons"><i class="fa fa-sort-up fa-2x mt-3 hit-voting"></i><i class="fa fa-sort-down fa-2x mb-3 hit-voting"></i><span class="ml-2">10</span><span class="dot ml-2"></span>
+                                <h6 class="ml-2 mt-1"><span class="rep">Reply</span></h6>
+                            </div>
+                </div>
+            </div>
+            <div class="commented-section mt-2">
+                <div class="d-flex flex-row align-items-center commented-user">
+                    <h5 class="mr-2">Samoya Johns</h5><span class="dot mb-1"></span><span class="mb-1 ml-2">5 hours ago</span></div>
+                <div class="comment-text-sm"><span>There is no problem. We hope you are safe</span></div>
+                <div class="reply-section">
+                    <div class="d-flex flex-row align-items-center voting-icons"><i class="fa fa-sort-up fa-2x mt-3 hit-voting"></i><i class="fa fa-sort-down fa-2x mb-3 hit-voting"></i><span class="ml-2">15</span><span class="dot ml-2"></span>
+                        <h6 class="ml-2 mt-1"><span class="rep">Reply</span></h6>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </div>
+    </div>
+    </div>    
+    <div class="container mt-5 mb-5">
+      <div class="d-flex justify-content-center row">
+          <div class="d-flex flex-column col-md-8">
+              <div class="d-flex flex-row align-items-center text-left comment-top p-2 bg-white border-bottom px-4">
+                  <div class="d-flex flex-column-reverse flex-grow-0 align-items-center votings ml-1"><i class="fa fa-sort-up fa-2x hit-voting"></i><span>17</span><i class="fa fa-sort-down fa-2x hit-voting"></i></div>
+                  <div class="d-flex flex-column ml-3">
+                      <div class="d-flex flex-row post-title">
+                        <h5>My clinic was changed from the Dokki area to Zamalek, 25 Abu Al-Fidaa Street, next to the Rowing Club</h5><span class="ml-2">(Dr:Zaki)</span></div>
+                      <div class="d-flex flex-row align-items-center align-content-center post-title"><span class="bdge mr-1">Important</span><span class="mr-2 comments">7 comments&nbsp;</span><span class="mr-2 dot"></span><span>18 hours ago</span></div>
+                  </div>
+              </div>
+              <div class="coment-bottom bg-white p-2 px-4">
+                  <div
+                      class="commented-section mt-2">
+                      <div class="d-flex flex-row align-items-center commented-user">
+                          <h5 class="mr-2">Ali Adel</h5><span class="dot mb-1"></span><span class="mb-1 ml-2">16 hours ago</span></div>
+                      <div class="comment-text-sm"><span>Do you work on the same schedule or different schedules?</span></div>
+                      <div
+                          class="reply-section">
+                          <div class="d-flex flex-row align-items-center voting-icons"><i class="fa fa-sort-up fa-2x mt-3 hit-voting"></i><i class="fa fa-sort-down fa-2x mb-3 hit-voting"></i><span class="ml-2">10</span><span class="dot ml-2"></span>
+                              <h6 class="ml-2 mt-1"><span class="rep">Reply</span></h6>
+                          </div>
+              </div>
+          </div>
+          <div class="commented-section mt-2">
+              <div class="d-flex flex-row align-items-center commented-user">
+                  <h5 class="mr-2">Omar Fared</h5><span class="dot mb-1"></span><span class="mb-1 ml-2">12 hours ago</span></div>
+              <div class="comment-text-sm"><span>When will work begin on the new clinic?</span></div>
+              <div class="reply-section">
+                  <div class="d-flex flex-row align-items-center voting-icons"><i class="fa fa-sort-up fa-2x mt-3 hit-voting"></i><i class="fa fa-sort-down fa-2x mb-3 hit-voting"></i><span class="ml-2">15</span><span class="dot ml-2"></span>
+                      <h6 class="ml-2 mt-1"><span class="rep">Reply</span></h6>
+                  </div>
+              </div>
+          </div>
+  </div>
+  </div>
+  </div>
+  </div> 
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-light footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
