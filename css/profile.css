@@ -72,3 +72,18 @@ text-align: center;}
 .text-down{
     margin-bottom: 20px;
 }
+.form-control{
+    background-color: rgb(245, 245, 245);
+}
+.form-select{
+    background-color:  rgb(245, 245, 245);
+}
+.list-group{
+
+}
+.header-align{
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
