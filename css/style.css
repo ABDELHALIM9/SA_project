@@ -240,6 +240,7 @@ color: #1B2C51;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: 16px;
 }
 
 .header-carousel .owl-dot {
@@ -560,3 +561,52 @@ color: #1B2C51;
     margin-left: 31px;
     margin-top: 20px;
 }
+
+.blogh{
+    margin-left: 23px;
+}
+.bdge {
+    height: 21px;
+    background-color: orange;
+    color: #fff;
+    font-size: 11px;
+    padding: 8px;
+    border-radius: 4px;
+    line-height: 3px;
+    margin-right: 10px;
+    margin-left: 10px;
+    }
+
+    .comments {
+    text-decoration: underline;
+    text-underline-position: under;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+    }
+
+
+    .dot {
+    height: 7px;
+    width: 7px;
+    margin-top: 3px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 15px;
+    }
+
+    .hit-voting:hover {
+    color: blue;
+    }
+
+    .hit-voting {
+    cursor: pointer;
+    }
+
+    .rep{
+        margin-left: 10px;
+        color: blue;
+    }
+
+
